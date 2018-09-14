@@ -170,7 +170,7 @@ void Board::Count_Walls()
         }
     }
 
-    std::cout<<"The board showing number of walls \n";
+    std::cout<<"Number of walls in the given board is: "<<count<<"\nThe board showing number of walls is below\n";
     for(int i=0; i <new_board.size(); i++)
     {
         for(int j=0; j<new_board[i].size(); j++)

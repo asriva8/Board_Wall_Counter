@@ -55,7 +55,7 @@ void Board::Count_Walls()
     std::vector<int> coordinate;  //Stores x,y coordinate location
     std::vector<std::vector<int> > container;
     std::vector<std::vector<int> > new_board;
-    std::vector<int> dummy;       // New board is filled with a dummy variable which has a value equal to 1.
+    std::vector<int> dummy;       // New board is filled with a dummy variable which has a value equal to -1.
     for (int i=0; i<cols; i++)
     {dummy.push_back(-1);}
     for (int i =0; i<rows; i++)

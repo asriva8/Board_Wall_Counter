@@ -16,7 +16,7 @@ Board::Board()
     }
     std::cout<<"Enter the number of columns in the board\n";
     std::cin>>cols;
-    while(rows<1)
+    while(cols<1)
     {
         std::cout<<"number of cols must be >= 1\n";
         std::cout<<"Enter the number of cols in the board\n";
